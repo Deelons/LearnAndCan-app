@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.netease.nim.demo.main.activity.waterfall.WaterFall
+        android:id="@+id/waterfall"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f2f2f2">
+
+    </com.netease.nim.demo.main.activity.waterfall.WaterFall>
+
+</LinearLayout>
