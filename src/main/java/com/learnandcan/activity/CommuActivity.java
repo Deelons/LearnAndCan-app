@@ -1,11 +1,12 @@
-package com.netease.nim.demo.main.activity;
+package com.learnandcan.activity;
 
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
 
-import com.netease.nim.demo.R;
+
+import com.learnandcan.R;
 
 import java.util.HashMap;
 import java.util.LinkedList;

@@ -1,9 +1,10 @@
-package com.netease.nim.demo.main.activity;
+package com.learnandcan.activity;
 
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 
-import com.netease.nim.demo.R;
+import com.learnandcan.R;
+
 
 /**
  * Created by lsr on 2016/1/30.

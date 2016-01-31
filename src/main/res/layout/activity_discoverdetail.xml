@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/discover_returnTv"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="#f8f8f8"
+            android:drawableLeft="@drawable/ic_return"
+            android:gravity="center"
+            android:paddingLeft="5dp"
+            android:text="发现"
+            android:textColor="#000" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#F8F8F8"
+            android:gravity="center"
+            android:paddingRight="20dp"
+            android:text="吉他入门教学"
+            android:textColor="#000" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/di_gray" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="7"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/discover_userinfoLl"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_weight="1"
+            android:background="#2dcccc">
+
+            <com.learnandcan.view.RoundImageView
+                android:id="@+id/discover_portraitIv"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/ic_miya" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/discover_nameTv"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="miya"
+                    android:textColor="#111" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="7dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/search_edttxt_style"
+                    android:text="钢琴6级，喜欢吉他"
+                    android:textColor="#afafaf" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/discover_despTv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#fff"
+            android:gravity="center_vertical"
+            android:text="  本人从小喜欢吉他，也从初中就开始学习吉他....."
+            android:textColor="#111" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="8"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="#aaaaaa"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:text="欲传授的技能"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/discover_skillTv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#fff"
+            android:gravity="center_vertical"
+            android:text="  吉他入门教学，学生自备吉他，可线上提供指导，线下交流学习......"
+            android:textColor="#111" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="9"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="#aaaaaa"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:text="所需报酬"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/discover_payTv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#fff"
+            android:gravity="center_vertical"
+            android:text="  免费教学，线下消费AA"
+            android:textColor="#111" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/discover_sendmsgBtn"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/sendmsgbtn_style"
+        android:gravity="center"
+        android:text="发消息"
+        android:textColor="#000" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#aaaaaa"
+        android:drawableRight="@drawable/ic_add"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:text="网友评论"
+        android:textColor="#000" />
+
+    <ListView
+        android:id="@+id/discover_commentLv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="8"
+        android:background="#fff"
+        android:divider="#bbb"
+        android:dividerHeight="1dp"></ListView>
+
+</LinearLayout>

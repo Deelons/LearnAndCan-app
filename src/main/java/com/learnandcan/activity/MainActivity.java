@@ -1,4 +1,4 @@
-package com.netease.nim.demo.main.activity;
+package com.learnandcan.activity;
 
 import android.annotation.TargetApi;
 import android.app.FragmentManager;
@@ -13,9 +13,8 @@ import android.view.WindowManager;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 
-import com.netease.nim.demo.R;
-import com.netease.nim.demo.main.fragment.DiscoverFragment;
-import com.netease.nim.demo.main.fragment.LessonFragment;
+import com.learnandcan.R;
+import com.learnandcan.fragment.LessonFragment;
 
 
 public class MainActivity extends ActionBarActivity implements View.OnClickListener {
@@ -33,7 +32,7 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main_frag);
 
         getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_ADJUST_PAN);//键盘隐藏
 
@@ -84,7 +83,7 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
 
         fragUser_rdoBtn = (RadioButton) findViewById(R.id.fragUser_rdoBtn);
         fragUser_rdoBtn.setOnClickListener(this);
-        fragLesson_rdoBtn = (RadioButton) findViewById(R.id.fragCommu_rdoBtn);
+        fragLesson_rdoBtn = (RadioButton) findViewById(R.id.fragLesson_rdoBtn);
         fragLesson_rdoBtn.setOnClickListener(this);
         fragCommu_rdoBtn = (RadioButton) findViewById(R.id.fragCommu_rdoBtn);
         fragCommu_rdoBtn.setOnClickListener(this);

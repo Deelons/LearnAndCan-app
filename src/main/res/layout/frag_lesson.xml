@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/lesson_Title_Tv"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#F8F8F8"
+        android:gravity="center"
+        android:textColor="#000"
+        android:text="课程" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/di_gray"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="7">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="艺术"
+            android:textColor="#000"
+            android:gravity="center"
+            android:layout_weight="1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="健身"
+            android:textColor="#000"
+            android:gravity="center"
+            android:layout_weight="1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="IT"
+            android:textColor="#000"
+            android:gravity="center"
+            android:layout_weight="1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="家居生活"
+            android:textColor="#000"
+            android:gravity="center"
+            android:layout_weight="1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="户外"
+            android:textColor="#000"
+            android:gravity="center"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#cccccc"
+        android:layout_weight="7">
+        <EditText
+            android:id="@+id/lesson_searchEdtTxt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:background="@drawable/search_edttxt_style"
+            android:paddingLeft="5dp"
+            android:drawableLeft="@drawable/ic_search"
+            android:hint="输入名字或课程名快速查找"
+            android:textColorHint="#cccccc"
+            android:textColor="#111"
+            />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lesson_overviewLv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#bbb"
+        android:minHeight="50dp"
+        android:dividerHeight="1dp"
+        android:layout_weight="2">
+
+    </ListView>
+
+
+</LinearLayout>

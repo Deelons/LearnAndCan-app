@@ -20,6 +20,17 @@
         <activity android:name=".activity.AccountActivity"/>
         <activity android:name=".activity.MessageActivity"/>
         <activity android:name=".activity.MobileActivity"/>
+        <activity android:name=".activity.CategoryActivity"/>
+        <activity android:name=".activity.CommuActivity"/>
+        <activity android:name=".activity.DiscoverdetailActivity"/>
+        <activity android:name=".activity.DiscovoerActivity"/>
+        <activity android:name=".activity.DiscoverUserinfoActivity"/>
+        <activity android:name=".activity.LessondetailActivity"/>
+        <activity android:name=".activity.LessonsaveActivity"/>
+        <activity android:name=".activity.LoginActivity"/>
+        <activity android:name=".activity.SettingActivity"/>
+        <activity android:name=".activity.SignatureActivity"/>
+
     </application>
 
 </manifest>

@@ -1,4 +1,4 @@
-package com.netease.nim.demo.main.activity;
+package com.learnandcan.activity;
 
 import android.os.Bundle;
 import android.os.Environment;
@@ -7,8 +7,10 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.netease.nim.demo.R;
-import com.netease.nim.demo.main.activity.waterfall.WaterFall;
+
+import com.learnandcan.R;
+import com.learnandcan.activity.waterfall.WaterFall;
+
 
 import java.io.File;
 

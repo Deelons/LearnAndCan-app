@@ -1,4 +1,4 @@
-package com.netease.nim.demo.main.activity.waterfall;
+package com.learnandcan.activity.waterfall;
 
 import java.io.FileInputStream;
 import java.io.IOException;
