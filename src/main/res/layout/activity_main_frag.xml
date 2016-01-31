@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/fragContainer_lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/di_gray" />
+
+    <RadioGroup
+        android:id="@+id/fragMain_rdoGp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="9"
+        android:background="#fff"
+        android:orientation="horizontal">
+
+
+        <RadioButton
+            android:id="@+id/fragDiscover_rdoBtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/ic_eye"
+            android:gravity="center"
+            android:text="发现"
+            android:textColor="#000" />
+
+        <RadioButton
+            android:id="@+id/fragLesson_rdoBtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/ic_book"
+            android:gravity="center"
+            android:text="课程"
+            android:textColor="#000" />
+
+        <RadioButton
+            android:id="@+id/fragCommu_rdoBtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:text="交流"
+            android:gravity="center"
+            android:drawableTop="@drawable/ic_mail"/>
+
+        <RadioButton
+            android:id="@+id/fragUser_rdoBtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/ic_people"
+            android:gravity="center"
+            android:text="我的"
+            android:textColor="#000" />
+    </RadioGroup>
+
+
+</LinearLayout>

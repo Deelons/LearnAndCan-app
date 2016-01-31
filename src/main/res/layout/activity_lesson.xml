@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#ffffff"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#00bf9d"
+            android:paddingLeft="10dp">
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbarAlwaysDrawHorizontalTrack="true"
+                >
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    >
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:button="@null"
+                        android:background="@drawable/white_btnstyle"
+                        android:layout_margin="5dp"
+                        android:text="猜你喜欢"
+                        />
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:button="@null"
+                        android:background="@drawable/white_btnstyle"
+                        android:layout_margin="5dp"
+                        android:text="体育健身"
+                        />
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:button="@null"
+                        android:background="@drawable/white_btnstyle"
+                        android:layout_margin="5dp"
+                        android:text="摄影美工"
+                        />
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:button="@null"
+                        android:background="@drawable/white_btnstyle"
+                        android:layout_margin="5dp"
+                        android:text="声乐器乐"
+                        />
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:button="@null"
+                        android:background="@drawable/white_btnstyle"
+                        android:layout_margin="5dp"
+                        android:text="美食烹饪"
+                        />
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:button="@null"
+                        android:background="@drawable/white_btnstyle"
+                        android:layout_margin="5dp"
+                        android:text="舞蹈瑜伽"
+                        />
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:button="@null"
+                        android:background="@drawable/white_btnstyle"
+                        android:layout_margin="5dp"
+                        android:text="时尚美妆"
+                        />
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:button="@null"
+                        android:background="@drawable/white_btnstyle"
+                        android:layout_margin="5dp"
+                        android:text="DIY手工"
+                        />
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:button="@null"
+                        android:background="@drawable/white_btnstyle"
+                        android:layout_margin="5dp"
+                        android:text="其他"
+                        />
+
+                </RadioGroup>
+
+            </HorizontalScrollView>
+        </LinearLayout>
+
+
+        <ImageButton
+            android:id="@+id/registTxt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:background="#00bf9d"
+            android:gravity="center_vertical|right"
+            android:paddingRight="10dp"
+            android:src="@drawable/ic_file"
+            android:textColor="#fff"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#cccccc">
+
+        <EditText
+            android:id="@+id/lesson_searchEdtTxt"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:background="@drawable/search_edttxt_style"
+            android:drawableLeft="@drawable/ic_search"
+            android:hint="请输入昵称"
+            android:padding="5dp"
+            android:textColor="#111"
+            android:textColorHint="#cccccc" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lesson_overviewLv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:divider="#bbb"
+        android:dividerHeight="1dp"
+        android:minHeight="50dp">
+
+    </ListView>
+
+
+</LinearLayout>
