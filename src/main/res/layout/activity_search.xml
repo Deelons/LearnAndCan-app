@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#edeef0"
+    tools:context=".SearchActivity">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#ffffff"
+        android:layout_marginBottom="20dp"
+        >
+        <EditText
+            android:layout_width="260dp"
+            android:layout_height="40dp"
+            android:background="@null"
+            android:textSize="15dp"
+            android:singleLine="true"
+         />
+
+        <Button
+            android:layout_width="56dp"
+            android:layout_height="40dp"
+            android:text="取消"
+            android:textSize="15dp"
+            android:layout_gravity="right"
+            android:textColor="#00bf9d"
+            android:background="@android:color/transparent" />
+
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="历史搜索"
+        android:layout_marginLeft="10dp"
+        />
+</LinearLayout>

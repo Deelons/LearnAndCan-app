@@ -30,7 +30,15 @@
         <activity android:name=".activity.LoginActivity"/>
         <activity android:name=".activity.SettingActivity"/>
         <activity android:name=".activity.SignatureActivity"/>
-
+        <activity android:name=".activity.SearchActivity"
+            android:theme="@android:style/Theme.NoTitleBar"
+            />
+        <activity android:name=".activity.SplashActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            />
+        <activity android:name=".activity.EmailActivity"
+            android:theme="@style/Email"
+            />
     </application>
 
 </manifest>
