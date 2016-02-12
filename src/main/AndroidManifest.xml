@@ -39,6 +39,10 @@
         <activity android:name=".activity.EmailActivity"
             android:theme="@style/Email"
             />
+
+        <activity android:name=".activity.ProfileActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            />
     </application>
 
 </manifest>

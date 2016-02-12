@@ -13,6 +13,6 @@ public class EmailActivity extends Activity {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_CUSTOM_TITLE);
         setContentView(R.layout.activity_email);
-        getWindow().setFeatureInt(Window.FEATURE_CUSTOM_TITLE,R.layout.email);
+        getWindow().setFeatureInt(Window.FEATURE_CUSTOM_TITLE,R.layout.title_email);
     }
 }
