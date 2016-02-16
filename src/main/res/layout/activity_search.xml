@@ -39,4 +39,50 @@
         android:text="历史搜索"
         android:layout_marginLeft="10dp"
         />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:text="吉他"
+            android:textSize="20dp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:background="#FFFFFF"
+            android:id="@+id/textView" />
+
+        <TextView
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:text="学钢琴"
+            android:textSize="20dp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:background="#FFFFFF"
+            android:layout_gravity="right|top"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="吉他"
+            android:textSize="20dp"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:background="#FFFFFF"
+            android:layout_below="@+id/textView"
+            android:layout_alignLeft="@+id/textView"
+            android:layout_alignStart="@+id/textView"
+            android:layout_marginTop="10dp" />
+
+    </RelativeLayout>
 </LinearLayout>

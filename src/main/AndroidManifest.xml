@@ -43,6 +43,8 @@
         <activity android:name=".activity.ProfileActivity"
             android:theme="@style/Theme.AppCompat.NoActionBar"
             />
+        <activity android:name=".activity.DetailsActivity"/>
+        <activity android:name=".activity.Reward"/>
     </application>
 
 </manifest>
